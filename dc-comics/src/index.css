@@ -7,6 +7,10 @@ a {
   color: inherit;
 }
 
+li {
+  list-style-type: none;
+}
+
 .text-dark-gray {
   color: darkgray;
 }
@@ -22,4 +26,16 @@ a {
 
 .icon-main-big {
   width: 15%;
+}
+
+.footer-background {
+  background-image: url(../public/img/footer-bg.jpg);
+  background-size: cover;
+  overflow: hidden;
+}
+
+.img-footer {
+  position: relative;
+  top: -65px;
+  left: 20px;
 }
