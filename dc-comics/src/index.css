@@ -15,3 +15,11 @@ a {
   border-bottom: 5px solid #0D6EFD;
   padding-bottom: 60px;
 }
+
+.icon-main {
+  width: 20%;
+}
+
+.icon-main-big {
+  width: 15%;
+}
