@@ -18,10 +18,6 @@ const Header = () => {
                     <a href="" className='me-3 text-dark-emphasis'>SHOP</a>
                 </div>
             </div>
-            <div className=''></div>
-            <div className='bg-dark'>
-                hello
-            </div>
         </header>
     );
 };
