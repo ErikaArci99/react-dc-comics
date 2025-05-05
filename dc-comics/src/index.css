@@ -31,11 +31,14 @@ li {
 .footer-background {
   background-image: url(../public/img/footer-bg.jpg);
   background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
   overflow: hidden;
 }
 
 .img-footer {
   position: relative;
-  top: -65px;
+  top: -105px;
   left: 20px;
+  height: auto;
 }
