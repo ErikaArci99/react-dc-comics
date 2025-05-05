@@ -52,6 +52,22 @@ const Footer = () => {
                     </div>
                 </div>
             </div>
+            <div className='footer-gray'>
+                <div className="container d-flex justify-content-between align-items-center py-3">
+                    <div>
+                        <h5 className="text-light mb-0 text-uppercase sign-up p-3">SIGN UP NOW!</h5>
+                    </div>
+
+                    <div className="d-flex align-items-center">
+                        <h5 className="mb-0 text-uppercase me-3 text-primary">FOLLOW US</h5>
+                        <img src="../public/img/footer-facebook.png" alt="Facebook" className="ms-2 me-3" />
+                        <img src="../public/img/footer-twitter.png" alt="Twitter" className="me-3" />
+                        <img src="../public/img/footer-youtube.png" alt="YouTube" className="me-3" />
+                        <img src="../public/img/footer-pinterest.png" alt="Pinterest" className="me-3" />
+                        <img src="../public/img/footer-periscope.png" alt="Periscope" />
+                    </div>
+                </div>
+            </div>
         </footer>
 
     );

@@ -42,3 +42,16 @@ li {
   left: 20px;
   height: auto;
 }
+
+.footer-gray {
+  background-color: #303030;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  z-index: 100;
+}
+
+.sign-up {
+  border: #0D6EFD 3px solid;
+}
