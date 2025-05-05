@@ -3,11 +3,13 @@ import React from 'react';
 const Main = () => {
     return (
         <main>
+            {/* prima parte main */}
             <div className="bg-dark py-5">
                 <div className="container">
                     <h2 className="text-light">--&gt;Content goes here&lt;--</h2>
                 </div>
             </div>
+            {/* seconda parte main */}
             <div className="bg-primary py-3">
                 <div className="container">
                     <div className="row text-light text-center py-4 justify-content-between ms-2">

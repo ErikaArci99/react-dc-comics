@@ -3,6 +3,7 @@ import React from 'react';
 const Header = () => {
     return (
         <header>
+            {/* intestazione */}
             <div className="container d-flex justify-content-between">
                 <img src="../public/img/dc-logo.png" alt="logo" className="my-3" />
                 <div className="fw-bold mt-5">

@@ -3,6 +3,7 @@ import React from 'react';
 const Footer = () => {
     return (
         <footer>
+            {/* prima parte footer */}
             <div className="footer-background">
                 <div className="container d-flex justify-content-between align-items-start py-5">
                     <div className="d-flex flex-column me-2">
@@ -52,6 +53,7 @@ const Footer = () => {
                     </div>
                 </div>
             </div>
+            {/* seconda parte footer */}
             <div className='footer-gray'>
                 <div className="container d-flex justify-content-between align-items-center py-3">
                     <div>
