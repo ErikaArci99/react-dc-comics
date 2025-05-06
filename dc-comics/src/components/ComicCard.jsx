@@ -1,10 +1,10 @@
 import React from 'react';
 
-const ComicCard = () => {
+const ComicCard = ({ comic }) => {
     return (
         <div className="comic-card">
-            <h2>Titolo Statico</h2>
-            <p>Informazioni di prova</p>
+            <img src={comic.thumb} alt={comic.title} className='card-img' />
+            <h3>{comic.series}</h3>
         </div>
     );
 };

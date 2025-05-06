@@ -1,14 +1,10 @@
 import React from 'react';
+import ListComics from './ListComics';
 
 const Main = () => {
     return (
         <main>
-            {/* prima parte main */}
-            <div className="bg-dark py-5">
-                <div className="container">
-                    <h2 className="text-light">--&gt;Content goes here&lt;--</h2>
-                </div>
-            </div>
+            <ListComics />
         </main>
     );
 };

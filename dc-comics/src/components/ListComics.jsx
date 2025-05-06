@@ -1,3 +1,4 @@
+import React from 'react';
 import ComicCard from './ComicCard';
 
 const comics = [
@@ -155,8 +156,33 @@ const comics = [
     },
 ];
 
-return (
-    <div className="list-comics">
-        <ComicCard />
-    </div>
-);
+const ListComics = () => {
+    return (
+        <section>
+            <div>
+                <div>CURRENT SERIES</div>
+            </div>
+            <div>
+                <div>
+                    <ComicCard comic={comics[0]} />
+                    <ComicCard comic={comics[1]} />
+                    <ComicCard comic={comics[2]} />
+                    <ComicCard comic={comics[3]} />
+                    <ComicCard comic={comics[4]} />
+                    <ComicCard comic={comics[5]} />
+                    <ComicCard comic={comics[6]} />
+                    <ComicCard comic={comics[7]} />
+                    <ComicCard comic={comics[8]} />
+                    <ComicCard comic={comics[9]} />
+                    <ComicCard comic={comics[10]} />
+                    <ComicCard comic={comics[11]} />
+                </div>
+                <div>
+                    <button>LOAD MORE</button>
+                </div>
+            </div>
+        </section>
+    );
+}
+
+export default ListComics;
