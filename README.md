@@ -19,3 +19,5 @@ Passate le informazioni che vi servono (mostrate nello screenshot in allegato) d
 Trovate in allegato lo screenshot e il file contenente l'array. Copiate il contenuto di quest'ultimo nella componente ListComics.jsx
 Numero minimo di push: 8
 Buon Lavoro!
+
+ESERCIZIO TERMINATO
