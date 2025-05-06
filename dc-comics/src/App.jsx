@@ -1,6 +1,7 @@
 import './index.css'
 import Header from './components/Header';
 import Main from './components/Main';
+import BlueSection from './components/BlueSection';
 import Footer from './components/Footer';
 
 function App() {
@@ -9,6 +10,7 @@ function App() {
     <>
       <Header />
       <Main />
+      <BlueSection />
       <Footer />
     </>
   )
