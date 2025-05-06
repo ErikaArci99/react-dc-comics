@@ -159,9 +159,13 @@ const comics = [
 const ListComics = () => {
     return (
         <section>
-            <div>
-                <div>CURRENT SERIES</div>
+            {/* jubotron */}
+            <div className='comic-bg'>
+                <div className='container'>
+                    <span className='text-light fw-bold mb-0 text-uppercase current-series p-2'>CURRENT SERIES</span>
+                </div>
             </div>
+
             <div>
                 <div>
                     <ComicCard comic={comics[0]} />

@@ -55,3 +55,20 @@ li {
 .sign-up {
   border: #0D6EFD 3px solid;
 }
+
+.card-img {
+  width: 100px;
+  height: auto;
+}
+
+.comic-bg {
+  background-image: url(../public/img/jumbotron.jpg);
+  background-size: auto;
+  height: 350px;
+}
+
+.current-series {
+  background-color: #0D6EFD;
+  position: relative;
+  top: 338px;
+}
