@@ -62,8 +62,10 @@ li {
 
 .comic-bg {
   background-image: url(../public/img/jumbotron.jpg);
-  background-size: auto;
   height: 350px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
 }
 
 .current-series {
