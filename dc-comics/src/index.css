@@ -72,3 +72,9 @@ li {
   position: relative;
   top: 338px;
 }
+
+.load-more {
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+}

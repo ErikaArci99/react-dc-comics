@@ -166,8 +166,8 @@ const ListComics = () => {
                 </div>
             </div>
 
-            <div>
-                <div>
+            <div className='bg-dark'>
+                <div className='container'>
                     <ComicCard comic={comics[0]} />
                     <ComicCard comic={comics[1]} />
                     <ComicCard comic={comics[2]} />
@@ -182,7 +182,7 @@ const ListComics = () => {
                     <ComicCard comic={comics[11]} />
                 </div>
                 <div>
-                    <button>LOAD MORE</button>
+                    <button type="button" class="text-light py-1 px-4 bg-primary mb-3 load-more">LOAD MORE</button>
                 </div>
             </div>
         </section>
