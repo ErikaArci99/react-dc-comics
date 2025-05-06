@@ -1,0 +1,1 @@
+const comics = require('../assets/comics')
