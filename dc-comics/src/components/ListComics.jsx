@@ -167,19 +167,21 @@ const ListComics = () => {
             </div>
 
             <div className='bg-dark'>
-                <div className='container'>
-                    <ComicCard comic={comics[0]} />
-                    <ComicCard comic={comics[1]} />
-                    <ComicCard comic={comics[2]} />
-                    <ComicCard comic={comics[3]} />
-                    <ComicCard comic={comics[4]} />
-                    <ComicCard comic={comics[5]} />
-                    <ComicCard comic={comics[6]} />
-                    <ComicCard comic={comics[7]} />
-                    <ComicCard comic={comics[8]} />
-                    <ComicCard comic={comics[9]} />
-                    <ComicCard comic={comics[10]} />
-                    <ComicCard comic={comics[11]} />
+                <div className='container pt-5'>
+                    <div className="row justify-content-center">
+                        <ComicCard comic={comics[0]} />
+                        <ComicCard comic={comics[1]} />
+                        <ComicCard comic={comics[2]} />
+                        <ComicCard comic={comics[3]} />
+                        <ComicCard comic={comics[4]} />
+                        <ComicCard comic={comics[5]} />
+                        <ComicCard comic={comics[6]} />
+                        <ComicCard comic={comics[7]} />
+                        <ComicCard comic={comics[8]} />
+                        <ComicCard comic={comics[9]} />
+                        <ComicCard comic={comics[10]} />
+                        <ComicCard comic={comics[11]} />
+                    </div>
                 </div>
                 <div>
                     <button type="button" class="text-light py-1 px-4 bg-primary mb-3 load-more">LOAD MORE</button>
