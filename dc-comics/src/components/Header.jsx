@@ -1,5 +1,68 @@
 import React from 'react';
 
+const links = [
+    {
+        id: 1,
+        href: "#",
+        label: "Characters",
+        current: false,
+    },
+    {
+        id: 2,
+        href: "#",
+        label: "Comics",
+        current: true,
+    },
+    {
+        id: 3,
+        href: "#",
+        label: "Movies",
+        current: false,
+    },
+    {
+        id: 4,
+        href: "#",
+        label: "TV",
+        current: false,
+    },
+    {
+        id: 5,
+        href: "#",
+        label: "Games",
+        current: false,
+    },
+    {
+        id: 6,
+        href: "#",
+        label: "Collectibles",
+        current: false,
+    },
+    {
+        id: 7,
+        href: "#",
+        label: "Videos",
+        current: false,
+    },
+    {
+        id: 8,
+        href: "#",
+        label: "Fans",
+        current: false,
+    },
+    {
+        id: 9,
+        href: "#",
+        label: "News",
+        current: false,
+    },
+    {
+        id: 10,
+        href: "#",
+        label: "Shop",
+        current: false,
+    }
+]
+
 const Header = () => {
     return (
         <header>
@@ -28,18 +91,10 @@ const Header = () => {
 
                     {/* Menu links - collapse per sm e md, visibili da lg in poi */}
                     <div className="fw-bold mt-5 col-12 col-lg-6 collapse d-lg-flex justify-content-lg-end text-uppercase" id="mobileMenu">
-                        <a href="" className='me-3 text-dark-emphasis'>CHARACTERS</a>
-                        <a href="" className='me-3 text-primary bottom-bar'>COMICS</a>
-                        <a href="" className='me-3 text-dark-emphasis'>MOVIES</a>
-                        <a href="" className='me-3 text-dark-emphasis'>TV</a>
-                        <a href="" className='me-3 text-dark-emphasis'>GAMES</a>
-                        <a href="" className='me-3 text-dark-emphasis'>COLLECTIBLES</a>
-                        <a href="" className='me-3 text-dark-emphasis'>VIDEOS</a>
-                        <a href="" className='me-3 text-dark-emphasis'>FANS</a>
-                        <a href="" className='me-3 text-dark-emphasis'>NEWS</a>
-                        <a href="" className='me-3 text-dark-emphasis'>SHOP</a>
+                        {links.map((link) => (
+                            <a key={`link-${link.id}`} href={link.href} className='me-3 text-dark-emphasis bottom-bar'>{link.label}</a>
+                        ))}
                     </div>
-
                 </div>
             </div>
         </header>

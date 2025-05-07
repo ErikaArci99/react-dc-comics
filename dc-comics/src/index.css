@@ -16,8 +16,13 @@ li {
 }
 
 .bottom-bar {
-  border-bottom: 5px solid #0D6EFD;
   padding-bottom: 60px;
+  border-bottom: 5px solid transparent;
+  transition: border-color 0.3s ease;
+}
+
+.bottom-bar:hover {
+  border-bottom: 5px solid #0D6EFD;
 }
 
 .icon-main {
